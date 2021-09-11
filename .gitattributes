@@ -1,5 +1,3 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.ino filter=gitignore
-git config --global filter.gitignore.clean "sed '/#gitignore$/d'"
-git config --global filter.gitignore.smudge cat
